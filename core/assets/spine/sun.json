@@ -1,0 +1,62 @@
+{
+"skeleton": {
+	"hash": "Tb5sOos1J5ISfu4gAda4SkpX/Po",
+	"spine": "3.8.69",
+	"x": -107.39,
+	"y": -101.07,
+	"width": 213.98,
+	"height": 215.05,
+	"images": "../output/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "sun-01", "parent": "root", "length": 59.28, "x": 0.23, "y": 3.56 },
+	{ "name": "sun-02", "parent": "root", "length": 77.28, "rotation": -0.21, "x": -0.6, "y": 3.29 }
+],
+"slots": [
+	{ "name": "sun-02", "bone": "sun-02", "attachment": "sun-02" },
+	{ "name": "sun-01", "bone": "sun-01", "attachment": "sun-01" },
+	{ "name": "sun-00", "bone": "root", "attachment": "sun-00" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"sun-00": {
+				"sun-00": { "x": -1.7, "y": 5.22, "width": 100, "height": 111 }
+			},
+			"sun-01": {
+				"sun-01": { "x": -1.11, "width": 156, "height": 152 }
+			},
+			"sun-02": {
+				"sun-02": { "x": -1.67, "y": 3.32, "rotation": 0.21, "width": 157, "height": 157 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"sun-02": {
+				"rotate": [
+					{},
+					{ "time": 2.4333, "angle": -89.79 },
+					{ "time": 5.0333, "angle": -179.02 },
+					{ "time": 7.4667, "angle": 90.22 },
+					{ "time": 10.1 }
+				]
+			},
+			"sun-01": {
+				"rotate": [
+					{},
+					{ "time": 2.5333, "angle": 90.77 },
+					{ "time": 5.0333, "angle": -179.65 },
+					{ "time": 7.5667, "angle": -91.53 },
+					{ "time": 10.0667 }
+				]
+			}
+		}
+	}
+}
+}

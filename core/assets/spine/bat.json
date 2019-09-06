@@ -1,0 +1,103 @@
+{
+"skeleton": {
+	"hash": "JFOW2K5zJTNNFbCENmG8YmH3zio",
+	"spine": "3.8.69",
+	"x": -59.5,
+	"y": -16,
+	"width": 125,
+	"height": 53,
+	"images": "../output/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bat-head", "parent": "root", "length": 19.8, "rotation": -1.15, "x": 1.4, "y": 6.77 },
+	{ "name": "bat-wing-right", "parent": "bat-head", "length": 52.36, "rotation": 13.82, "x": 14.25, "y": 0.29 },
+	{ "name": "bat-wing-left", "parent": "bat-head", "length": 37.08, "rotation": 161.16, "x": -12.69, "y": 0.93 }
+],
+"slots": [
+	{ "name": "bat-wing-left", "bone": "bat-wing-left", "dark": "000000", "attachment": "bat-wing-left" },
+	{ "name": "bat-wing-right", "bone": "bat-wing-right", "dark": "000000", "attachment": "bat-wing-right" },
+	{ "name": "bat-head", "bone": "bat-head", "dark": "000000", "attachment": "bat-head" },
+	{ "name": "bbox", "bone": "root", "attachment": "bbox" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"bat-wing-left": {
+				"bat-wing-left": { "x": 19.42, "y": 4.35, "rotation": -160.02, "width": 57, "height": 50 }
+			},
+			"bat-wing-right": {
+				"bat-wing-right": { "x": 20.22, "y": -2.77, "rotation": -12.67, "width": 59, "height": 48 }
+			},
+			"bat-head": {
+				"bat-head": { "x": 0.52, "y": 3.75, "rotation": 1.15, "width": 47, "height": 53 }
+			},
+			"bbox": {
+				"bbox": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ -10.99, 20.68, -10.71, -9.9, 15.49, -9.9, 14.13, 19.86 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"die": {
+		"bones": {
+			"bat-head": {
+				"rotate": [
+					{},
+					{ "time": 0.7, "angle": 95.72 },
+					{ "time": 1.3667, "angle": -176.73 }
+				]
+			}
+		}
+	},
+	"hurt": {
+		"slots": {
+			"bat-head": {
+				"twoColor": [
+					{ "light": "ffffffff", "dark": "000000" },
+					{ "time": 0.1, "light": "ffffffff", "dark": "ffffff" },
+					{ "time": 0.3333, "light": "ffffffff", "dark": "000000" }
+				]
+			},
+			"bat-wing-left": {
+				"twoColor": [
+					{ "light": "ffffffff", "dark": "000000" },
+					{ "time": 0.1, "light": "ffffffff", "dark": "ffffff" },
+					{ "time": 0.3333, "light": "ffffffff", "dark": "000000" }
+				]
+			},
+			"bat-wing-right": {
+				"twoColor": [
+					{ "light": "ffffffff", "dark": "000000" },
+					{ "time": 0.1, "light": "ffffffff", "dark": "ffffff" },
+					{ "time": 0.3333, "light": "ffffffff", "dark": "000000" }
+				]
+			}
+		}
+	},
+	"run": {
+		"bones": {
+			"bat-wing-right": {
+				"rotate": [
+					{},
+					{ "time": 0.1, "angle": 33.67 },
+					{ "time": 0.2 }
+				]
+			},
+			"bat-wing-left": {
+				"rotate": [
+					{},
+					{ "time": 0.1, "angle": -34.22 },
+					{ "time": 0.2 }
+				]
+			}
+		}
+	}
+}
+}

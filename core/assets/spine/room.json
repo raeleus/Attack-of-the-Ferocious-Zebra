@@ -1,0 +1,63 @@
+{
+"skeleton": { "hash": "Ci1PuBYqM9MQ7jcwM0FY4W/M1jA", "spine": "3.8.69", "width": 1024, "height": 576, "images": "../output/", "audio": "" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "room", "bone": "root", "attachment": "room" },
+	{ "name": "bbox1", "bone": "root", "attachment": "bbox1" },
+	{ "name": "bbox2", "bone": "root", "attachment": "bbox2" },
+	{ "name": "bbox3", "bone": "root", "attachment": "bbox3" },
+	{ "name": "bbox4", "bone": "root", "attachment": "bbox4" },
+	{ "name": "bbox5", "bone": "root", "attachment": "bbox5" },
+	{ "name": "bbox6", "bone": "root" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"room": {
+				"room": { "x": 512, "y": 288, "width": 1024, "height": 576 }
+			},
+			"bbox1": {
+				"bbox1": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ 405.28, 133.41, 622.7, 133.41, 622.99, 116.53, 405.37, 117.16 ]
+				}
+			},
+			"bbox2": {
+				"bbox2": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ 651.27, 231.2, 651.5, 251.54, 1024.82, 251.26, 1024.82, 231.15 ]
+				}
+			},
+			"bbox3": {
+				"bbox3": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ -0.51, 251.09, 370.5, 251.09, 371.2, 230.67, -0.66, 230.9 ]
+				}
+			},
+			"bbox4": {
+				"bbox4": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ 111.72, 380.08, 112.18, 397.71, 915.19, 397.01, 915.89, 379.61 ]
+				}
+			},
+			"bbox5": {
+				"bbox5": {
+					"type": "boundingbox",
+					"vertexCount": 4,
+					"vertices": [ -0.66, 9.68, 1024.5, 10, 1021.22, -3.11, -0.07, -2.56 ]
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {}
+}
+}

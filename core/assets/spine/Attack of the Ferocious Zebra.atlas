@@ -1,0 +1,363 @@
+
+Attack of the Ferocious Zebra.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bat-head
+  rotate: false
+  xy: 216, 503
+  size: 47, 53
+  orig: 47, 53
+  offset: 0, 0
+  index: -1
+bat-wing-left
+  rotate: true
+  xy: 114, 494
+  size: 57, 50
+  orig: 57, 50
+  offset: 0, 0
+  index: -1
+bat-wing-right
+  rotate: true
+  xy: 166, 496
+  size: 59, 48
+  orig: 59, 48
+  offset: 0, 0
+  index: -1
+beam
+  rotate: true
+  xy: 61, 543
+  size: 8, 22
+  orig: 8, 22
+  offset: 0, 0
+  index: -1
+blood-00
+  rotate: false
+  xy: 111, 389
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+blood-01
+  rotate: false
+  xy: 166, 472
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+blood-02
+  rotate: true
+  xy: 30, 399
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+blood-03
+  rotate: true
+  xy: 37, 430
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+blood-04
+  rotate: true
+  xy: 1, 429
+  size: 37, 34
+  orig: 37, 34
+  offset: 0, 0
+  index: -1
+duck-bill-bottom
+  rotate: false
+  xy: 190, 481
+  size: 23, 13
+  orig: 23, 13
+  offset: 0, 0
+  index: -1
+duck-bill-top
+  rotate: true
+  xy: 188, 441
+  size: 29, 17
+  orig: 29, 17
+  offset: 0, 0
+  index: -1
+duck-body
+  rotate: true
+  xy: 1, 468
+  size: 71, 56
+  orig: 71, 56
+  offset: 0, 0
+  index: -1
+duck-foot
+  rotate: true
+  xy: 80, 358
+  size: 26, 20
+  orig: 26, 20
+  offset: 0, 0
+  index: -1
+duck-head
+  rotate: true
+  xy: 301, 564
+  size: 42, 47
+  orig: 42, 47
+  offset: 0, 0
+  index: -1
+duck-leg
+  rotate: false
+  xy: 310, 541
+  size: 17, 21
+  orig: 17, 21
+  offset: 0, 0
+  index: -1
+explosion-00
+  rotate: false
+  xy: 77, 331
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+explosion-01
+  rotate: true
+  xy: 135, 424
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+explosion-02
+  rotate: false
+  xy: 249, 562
+  size: 50, 44
+  orig: 50, 44
+  offset: 0, 0
+  index: -1
+explosion-03
+  rotate: true
+  xy: 59, 482
+  size: 57, 53
+  orig: 57, 53
+  offset: 0, 0
+  index: -1
+explosion-04
+  rotate: false
+  xy: 61, 553
+  size: 57, 53
+  orig: 57, 53
+  offset: 0, 0
+  index: -1
+explosion-05
+  rotate: true
+  xy: 1, 541
+  size: 65, 58
+  orig: 65, 58
+  offset: 0, 0
+  index: -1
+flash-00
+  rotate: true
+  xy: 166, 422
+  size: 48, 20
+  orig: 48, 20
+  offset: 0, 0
+  index: -1
+flash-01
+  rotate: true
+  xy: 102, 336
+  size: 48, 19
+  orig: 48, 19
+  offset: 0, 0
+  index: -1
+flash-02
+  rotate: true
+  xy: 216, 452
+  size: 49, 34
+  orig: 49, 34
+  offset: 0, 0
+  index: -1
+flash-03
+  rotate: true
+  xy: 56, 352
+  size: 43, 22
+  orig: 43, 22
+  offset: 0, 0
+  index: -1
+flash-04
+  rotate: true
+  xy: 87, 386
+  size: 49, 22
+  orig: 49, 22
+  offset: 0, 0
+  index: -1
+megamorphic-gun
+  rotate: true
+  xy: 30, 309
+  size: 88, 24
+  orig: 88, 24
+  offset: 0, 0
+  index: -1
+pistol
+  rotate: true
+  xy: 1, 319
+  size: 32, 23
+  orig: 32, 23
+  offset: 0, 0
+  index: -1
+ricochet-00
+  rotate: false
+  xy: 85, 543
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+ricochet-01
+  rotate: false
+  xy: 80, 469
+  size: 14, 11
+  orig: 14, 11
+  offset: 0, 0
+  index: -1
+ricochet-02
+  rotate: false
+  xy: 1, 293
+  size: 23, 24
+  orig: 23, 24
+  offset: 0, 0
+  index: -1
+ricochet-03
+  rotate: true
+  xy: 135, 458
+  size: 34, 29
+  orig: 34, 29
+  offset: 0, 0
+  index: -1
+ricochet-04
+  rotate: false
+  xy: 72, 437
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+room
+  rotate: false
+  xy: 1, 608
+  size: 1024, 576
+  orig: 1024, 576
+  offset: 0, 0
+  index: -1
+sun-00
+  rotate: false
+  xy: 1027, 756
+  size: 100, 111
+  orig: 100, 111
+  offset: 0, 0
+  index: -1
+sun-01
+  rotate: true
+  xy: 1027, 869
+  size: 156, 152
+  orig: 156, 152
+  offset: 0, 0
+  index: -1
+sun-02
+  rotate: false
+  xy: 1027, 1027
+  size: 157, 157
+  orig: 157, 157
+  offset: 0, 0
+  index: -1
+unicorn-arm
+  rotate: false
+  xy: 56, 327
+  size: 19, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+unicorn-body
+  rotate: true
+  xy: 120, 557
+  size: 49, 70
+  orig: 49, 70
+  offset: 0, 0
+  index: -1
+unicorn-hair
+  rotate: false
+  xy: 265, 499
+  size: 43, 61
+  orig: 43, 61
+  offset: 0, 0
+  index: -1
+unicorn-head
+  rotate: true
+  xy: 192, 558
+  size: 48, 55
+  orig: 48, 55
+  offset: 0, 0
+  index: -1
+unicorn-leg
+  rotate: false
+  xy: 111, 404
+  size: 22, 33
+  orig: 22, 33
+  offset: 0, 0
+  index: -1
+unicorn-tail
+  rotate: true
+  xy: 59, 397
+  size: 31, 26
+  orig: 31, 26
+  offset: 0, 0
+  index: -1
+unity
+  rotate: true
+  xy: 1027, 645
+  size: 109, 100
+  orig: 109, 100
+  offset: 0, 0
+  index: -1
+unity-crown
+  rotate: true
+  xy: 1027, 520
+  size: 123, 67
+  orig: 123, 67
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 95, 550
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+zebra-arm
+  rotate: true
+  xy: 1, 353
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+zebra-body
+  rotate: false
+  xy: 104, 439
+  size: 29, 41
+  orig: 29, 41
+  offset: 0, 0
+  index: -1
+zebra-foot
+  rotate: false
+  xy: 59, 469
+  size: 19, 11
+  orig: 19, 11
+  offset: 0, 0
+  index: -1
+zebra-head
+  rotate: true
+  xy: 1, 395
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+zebra-leg
+  rotate: false
+  xy: 135, 383
+  size: 20, 39
+  orig: 20, 39
+  offset: 0, 0
+  index: -1
